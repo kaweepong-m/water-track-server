@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "waters",
+  "info": {
+    "name": "Water"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    }
+  }
+}

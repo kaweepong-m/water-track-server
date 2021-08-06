@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/water-histories",
+      "handler": "water-history.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/water-histories/count",
+      "handler": "water-history.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/water-histories/:id",
+      "handler": "water-history.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/water-histories",
+      "handler": "water-history.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/water-histories/:id",
+      "handler": "water-history.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/water-histories/:id",
+      "handler": "water-history.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

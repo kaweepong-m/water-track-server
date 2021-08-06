@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "water_rewards",
+  "info": {
+    "name": "WaterReward"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "desc": {
+      "type": "text"
+    }
+  }
+}

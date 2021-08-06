@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "water_histories",
+  "info": {
+    "name": "WaterHistory",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "point": {
+      "type": "integer"
+    },
+    "username": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    }
+  }
+}

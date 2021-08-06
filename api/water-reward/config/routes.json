@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/water-rewards",
+      "handler": "water-reward.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/water-rewards/count",
+      "handler": "water-reward.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/water-rewards/:id",
+      "handler": "water-reward.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/water-rewards",
+      "handler": "water-reward.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/water-rewards/:id",
+      "handler": "water-reward.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/water-rewards/:id",
+      "handler": "water-reward.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
