@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "water_users",
   "info": {
-    "name": "WaterUser"
+    "name": "WaterUser",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -21,6 +22,9 @@
       "type": "string"
     },
     "point": {
+      "type": "integer"
+    },
+    "pointUsed": {
       "type": "integer"
     }
   }
