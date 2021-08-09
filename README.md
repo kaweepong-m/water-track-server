@@ -6,12 +6,9 @@
 จักรภัทร ผลยงค์ 6110450669 , 
 กวีพงศ์ เหมี้ยงหอม 6110450634
 
-## Project setup
+## วิธีการใช้งาน
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run develop
 ```
+
