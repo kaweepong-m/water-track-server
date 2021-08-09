@@ -60,10 +60,7 @@
       "configurable": false
     },
     "point": {
-      "type": "biginteger"
-    },
-    "pointused": {
-      "type": "biginteger"
+      "type": "integer"
     }
   }
 }

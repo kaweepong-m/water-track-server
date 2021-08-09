@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "waters",
+  "collectionName": "water_users",
   "info": {
-    "name": "Water",
+    "name": "WaterUser",
     "description": ""
   },
   "options": {
@@ -15,7 +15,10 @@
     "username": {
       "type": "string"
     },
-    "userid": {
+    "point": {
+      "type": "integer"
+    },
+    "pointUsed": {
       "type": "integer"
     }
   }
