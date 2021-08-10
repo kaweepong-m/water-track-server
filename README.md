@@ -1,4 +1,5 @@
 # Strapi application
+ส่วน fornt-end อยู่ที่ https://github.com/kaweepong-m/water-track-server
 
 ## ผู้จัดทำ
 ศุภกร ใจพอดี 6110450987 , 
